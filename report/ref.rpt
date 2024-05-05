@@ -1,0 +1,60 @@
+ 
+****************************************
+Report : reference
+Design : b18
+Version: V-2023.12
+Date   : Sun May  5 17:45:38 2024
+****************************************
+
+Attributes:
+    b - black box (unknown)
+   bo - allows boundary optimization
+    d - dont_touch
+   mo - map_only
+    h - hierarchical
+    n - noncombinational
+    r - removable
+    s - synthetic operator
+    u - contains unmapped logic
+
+Reference          Library       Unit Area   Count    Total Area   Attributes
+-----------------------------------------------------------------------------
+AND2_X1            typical        1.064000     480    510.720005  
+AND2_X2            typical        1.330000       1      1.330000  
+AND3_X1            typical        1.330000      42     55.860002  
+AND4_X1            typical        1.596000       4      6.384000  
+AOI21_X1           typical        1.064000      46     48.944000  
+AOI22_X1           typical        1.330000     142    188.860006  
+AOI221_X1          typical        1.596000       6      9.576000  
+AOI222_X1          typical        2.128000       6     12.768000  
+BUF_X1             typical        0.798000      33     26.333999  
+BUF_X2             typical        1.064000       1      1.064000  
+CLKBUF_X1          typical        0.798000     287    229.025994  
+CLKBUF_X2          typical        1.064000       2      2.128000  
+DFFR_X1            typical        5.320000     735   3910.200126  n
+DFFS_X1            typical        5.320000       2     10.640000  n
+FA_X1              typical        4.256000      52    221.312002  r
+HA_X1              typical        2.660000      10     26.600001  r
+INV_X1             typical        0.532000     832    442.624004  
+MUX2_X1            typical        1.862000      12     22.344000  
+NAND2_X1           typical        0.798000    2079   1659.041954  
+NAND3_X1           typical        1.064000      30     31.920000  
+NAND4_X1           typical        1.330000     291    387.030012  
+NOR2_X1            typical        0.798000     896    715.007980  
+NOR2_X2            typical        1.330000       1      1.330000  
+NOR3_X1            typical        1.064000      24     25.536000  
+NOR4_X1            typical        1.330000      22     29.260001  
+OAI21_X1           typical        1.064000     113    120.232001  
+OAI22_X1           typical        1.330000      48     63.840002  
+OAI33_X1           typical        1.862000       4      7.448000  
+OAI211_X1          typical        1.330000      54     71.820002  
+OAI221_X1          typical        1.596000       2      3.192000  
+OR2_X1             typical        1.064000     959   1020.376010  
+OR3_X1             typical        1.330000      67     89.110003  
+OR4_X1             typical        1.596000      14     22.343999  
+SDFFR_X1           typical        6.650000       1      6.650000  n
+XNOR2_X1           typical        1.596000     382    609.671983  
+XOR2_X1            typical        1.596000     398    635.207983  
+-----------------------------------------------------------------------------
+Total 36 references                                 11225.732072
+1

@@ -1,0 +1,96 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nets
+        -max_paths 1
+        -transition_time
+Design : b18
+Version: V-2023.12
+Date   : Sun May  5 17:45:36 2024
+****************************************
+
+ # A fanout number of 150 was used for high fanout net computations.
+
+Operating Conditions: typical   Library: typical
+Wire Load Model Mode: top
+
+  Startpoint: P2_P2_PhyAddrPointer_reg_6_
+              (rising edge-triggered flip-flop clocked by clock)
+  Endpoint: P2_P2_rEIP_reg_25_
+            (rising edge-triggered flip-flop clocked by clock)
+  Path Group: clock
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  b18                5K_hvratio_1_1        typical
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                             Fanout     Trans      Incr       Path      Attributes
+  -----------------------------------------------------------------------------------------------
+  clock clock (rise edge)                                 0.00       0.00
+  clock network delay (ideal)                             0.00       0.00
+  P2_P2_PhyAddrPointer_reg_6_/CK (DFFR_X1)      0.00      0.00 #     0.00 r
+  P2_P2_PhyAddrPointer_reg_6_/Q (DFFR_X1)       0.02      0.11       0.11 r
+  P2_P2_PhyAddrPointer[6] (net)       4                   0.00       0.11 r
+  U17670/ZN (NAND2_X1)                          0.02      0.04       0.16 f
+  n16770 (net)                        3                   0.00       0.16 f
+  U17672/ZN (NOR2_X1)                           0.02      0.05       0.21 r
+  n16780 (net)                        2                   0.00       0.21 r
+  U17676/ZN (NAND2_X1)                          0.01      0.03       0.24 f
+  n16756 (net)                        1                   0.00       0.24 f
+  U17677/ZN (NOR2_X1)                           0.03      0.05       0.29 r
+  n16763 (net)                        2                   0.00       0.29 r
+  U16701/Z (CLKBUF_X2)                          0.02      0.06       0.35 r
+  n17721 (net)                        8                   0.00       0.35 r
+  U16671/Z (CLKBUF_X2)                          0.02      0.07       0.41 r
+  n17717 (net)                        7                   0.00       0.41 r
+  U17759/ZN (NAND2_X1)                          0.01      0.04       0.45 f
+  n16806 (net)                        1                   0.00       0.45 f
+  U17760/Z (XOR2_X1)                            0.02      0.07       0.53 f
+  n19605 (net)                        3                   0.00       0.53 f
+  U17761/ZN (INV_X1)                            0.02      0.04       0.57 r
+  n19596 (net)                        3                   0.00       0.57 r
+  U17765/ZN (NAND2_X1)                          0.01      0.03       0.60 f
+  n16810 (net)                        1                   0.00       0.60 f
+  U17766/ZN (NOR2_X1)                           0.02      0.05       0.65 r
+  n17140 (net)                        2                   0.00       0.65 r
+  U17349/ZN (AND2_X1)                           0.01      0.05       0.69 r
+  n16574 (net)                        2                   0.00       0.69 r
+  U17784/ZN (NAND2_X1)                          0.02      0.04       0.73 f
+  n17806 (net)                        3                   0.00       0.73 f
+  U19183/ZN (INV_X1)                            0.01      0.04       0.77 r
+  n18231 (net)                        2                   0.00       0.77 r
+  U17550/ZN (AND2_X1)                           0.01      0.04       0.81 r
+  n17808 (net)                        1                   0.00       0.81 r
+  U19184/ZN (XNOR2_X1)                          0.01      0.03       0.84 f
+  n17809 (net)                        1                   0.00       0.84 f
+  U19185/ZN (AND2_X1)                           0.01      0.04       0.88 f
+  n17814 (net)                        1                   0.00       0.88 f
+  U16467/ZN (OR3_X1)                            0.01      0.07       0.95 f
+  n13451 (net)                        1                   0.00       0.95 f
+  P2_P2_rEIP_reg_25_/D (DFFR_X1)                0.01      0.01       0.96 f
+  data arrival time                                                  0.96
+
+  clock clock (rise edge)                                 1.00       1.00
+  clock network delay (ideal)                             0.00       1.00
+  P2_P2_rEIP_reg_25_/CK (DFFR_X1)                         0.00       1.00 r
+  library setup time                                     -0.04       0.96
+  data required time                                                 0.96
+  -----------------------------------------------------------------------------------------------
+  data required time                                                 0.96
+  data arrival time                                                 -0.96
+  -----------------------------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+
+1

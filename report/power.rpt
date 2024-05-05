@@ -1,0 +1,58 @@
+ 
+****************************************
+Report : power
+        -analysis_effort low
+Design : b18
+Version: V-2023.12
+Date   : Sun May  5 17:45:36 2024
+****************************************
+
+
+Library(s) Used:
+
+    typical (File: /dfs/usrhome/yzhuel/lab/ELEC6910D_Lab/Flow/tech/NangateOpenCellLibrary_PDKv1_3_v2010_12/db/typical.db)
+
+
+Operating Conditions: typical   Library: typical
+Wire Load Model Mode: top
+
+Design        Wire Load Model            Library
+------------------------------------------------
+b18                    5K_hvratio_1_1    typical
+
+
+Global Operating Voltage = 1.1  
+Power-specific unit information :
+    Voltage Units = 1V
+    Capacitance Units = 1.000000ff
+    Time Units = 1ns
+    Dynamic Power Units = 1uW    (derived from V,C,T units)
+    Leakage Power Units = 1nW
+
+
+Attributes
+----------
+i - Including register clock pin internal power
+
+
+  Cell Internal Power  =   5.8691 mW   (88%)
+  Net Switching Power  = 801.7625 uW   (12%)
+                         ---------
+Total Dynamic Power    =   6.6708 mW  (100%)
+
+Cell Leakage Power     = 232.0499 uW
+
+
+                 Internal         Switching           Leakage            Total
+Power Group      Power            Power               Power              Power   (   %    )  Attrs
+--------------------------------------------------------------------------------------------------
+io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
+black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
+clock_network  4.9237e+03            0.0000            0.0000        4.9237e+03  (  71.33%)  i
+register         385.9878          147.1396        6.1001e+04          594.1259  (   8.61%)
+sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
+combinational    559.3954          654.6240        1.7105e+05        1.3851e+03  (  20.07%)
+--------------------------------------------------------------------------------------------------
+Total          5.8691e+03 uW       801.7635 uW     2.3205e+05 nW     6.9029e+03 uW
+1
