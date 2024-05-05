@@ -1,6 +1,6 @@
 #@ # 
 #@ # Running dc_shell Version V-2023.12 for linux64 -- Nov 27, 2023
-#@ # Date:   Sun May  5 17:43:49 2024
+#@ # Date:   Sun May  5 18:51:15 2024
 #@ # Run by: yzhuel@ecelvd809.ece.local
 #@ 
 
@@ -8762,11 +8762,11 @@ source /usr/eelocal/synopsys/syn-vv2023.12/admin/setup/.synopsys_dc.setup
 #@ #------------------------------------------------------------------------------
 #@ # Set DRC constraints 
 #@ #------------------------------------------------------------------------------
-#@ set_max_fanout      8      $current_design
-#@ set_max_transition    2.5      $current_design
-#@ set_max_capacitance     30      $current_design
-#@ set high_fanout_net_threshold 150
-#@ set high_fanout_net_pin_capacitance 0.2
+#@ set_max_fanout      10      $current_design
+#@ set_max_transition    2.0      $current_design
+#@ set_max_capacitance     20      $current_design
+#@ set high_fanout_net_threshold 200
+#@ set high_fanout_net_pin_capacitance 0.1
 #@ 
 #@ #-----------------------------------------------------------------------------
 #@ # Compile the design

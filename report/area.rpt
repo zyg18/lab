@@ -3,7 +3,7 @@
 Report : area
 Design : b18
 Version: V-2023.12
-Date   : Sun May  5 17:45:36 2024
+Date   : Sun May  5 18:53:04 2024
 ****************************************
 
 Library(s) Used:
@@ -11,21 +11,21 @@ Library(s) Used:
     typical (File: /dfs/usrhome/yzhuel/lab/ELEC6910D_Lab/Flow/tech/NangateOpenCellLibrary_PDKv1_3_v2010_12/db/typical.db)
 
 Number of ports:                           61
-Number of nets:                          8711
-Number of cells:                         8080
-Number of combinational cells:           7340
+Number of nets:                          8697
+Number of cells:                         8038
+Number of combinational cells:           7299
 Number of sequential cells:               738
 Number of macros/black boxes:               0
-Number of buf/inv:                       1155
-Number of references:                      36
+Number of buf/inv:                       1131
+Number of references:                      33
 
-Combinational area:               7298.241946
-Buf/Inv area:                      701.175997
-Noncombinational area:            3927.490127
+Combinational area:               7287.867951
+Buf/Inv area:                      675.373999
+Noncombinational area:            3926.160127
 Macro/Black Box area:                0.000000
 Net Interconnect area:      undefined  (Wire load has zero net area)
 
-Total cell area:                 11225.732072
+Total cell area:                 11214.028078
 Total area:                 undefined
 
 Hierarchical area distribution
@@ -36,8 +36,8 @@ Hierarchical area distribution
 Hierarchical cell                 Absolute    Percent  Combi-     Noncombi-  Black-
                                   Total       Total    national   national   boxes   Design
 --------------------------------  ----------  -------  ---------  ---------  ------  ---------
-b18                               11225.7321    100.0  7298.2419  3927.4901  0.0000  b18
+b18                               11214.0281    100.0  7287.8680  3926.1601  0.0000  b18
 --------------------------------  ----------  -------  ---------  ---------  ------  ---------
-Total                                                  7298.2419  3927.4901  0.0000
+Total                                                  7287.8680  3926.1601  0.0000
 
 1

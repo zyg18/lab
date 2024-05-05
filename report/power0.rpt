@@ -1,5 +1,5 @@
 Information: Updating design information... (UID-85)
-Warning: Design 'b18' contains 1 high-fanout nets. A fanout number of 150 will be used for delay calculations involving these nets. (TIM-134)
+Warning: Design 'b18' contains 1 high-fanout nets. A fanout number of 200 will be used for delay calculations involving these nets. (TIM-134)
 Information: Propagating switching activity (low effort zero delay simulation). (PWR-6)
 Warning: Design has unannotated primary inputs. (PWR-414)
 Warning: Design has unannotated sequential cell outputs. (PWR-415)
@@ -10,7 +10,7 @@ Report : power
         -verbose
 Design : b18
 Version: V-2023.12
-Date   : Sun May  5 17:45:36 2024
+Date   : Sun May  5 18:53:04 2024
 ****************************************
 
 
@@ -41,12 +41,12 @@ Attributes
 i - Including register clock pin internal power
 
 
-  Cell Internal Power  =   5.8691 mW   (88%)
-  Net Switching Power  = 801.7625 uW   (12%)
+  Cell Internal Power  =   5.8511 mW   (88%)
+  Net Switching Power  = 792.9547 uW   (12%)
                          ---------
-Total Dynamic Power    =   6.6708 mW  (100%)
+Total Dynamic Power    =   6.6441 mW  (100%)
 
-Cell Leakage Power     = 232.0499 uW
+Cell Leakage Power     = 231.9518 uW
 
                  Internal         Switching           Leakage            Total                         Cell
 Power Group      Power            Power               Power              Power   (   %    )  Attrs  Count
@@ -54,10 +54,10 @@ Power Group      Power            Power               Power              Power  
 io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)            0
 memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)            0
 black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)            0
-clock_network  4.9237e+03            0.0000            0.0000        4.9237e+03  (  71.33%)            0 i
-register         385.9878          147.1396        6.1001e+04          594.1259  (   8.61%)            738
+clock_network  4.9151e+03            0.0000            0.0000        4.9151e+03  (  71.48%)            0 i
+register         386.6250          151.7588        6.0985e+04          599.3708  (   8.72%)            738
 sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)            0
-combinational    559.3954          654.6240        1.7105e+05        1.3851e+03  (  20.07%)            7340
+combinational    549.4054          641.1937        1.7097e+05        1.3616e+03  (  19.80%)            7299
 ---------------------------------------------------------------------------------------------------------
-Total          5.8691e+03 uW       801.7635 uW     2.3205e+05 nW     6.9029e+03 uW
+Total          5.8511e+03 uW       792.9525 uW     2.3195e+05 nW     6.8760e+03 uW
 1

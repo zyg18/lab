@@ -7,7 +7,7 @@ Report : power
         -analysis_effort high
 Design : b18
 Version: V-2023.12
-Date   : Sun May  5 17:45:38 2024
+Date   : Sun May  5 18:53:06 2024
 ****************************************
 
 
@@ -38,12 +38,12 @@ Attributes
 i - Including register clock pin internal power
 
 
-  Cell Internal Power  =   5.8706 mW   (88%)
-  Net Switching Power  = 801.6835 uW   (12%)
+  Cell Internal Power  =   5.8533 mW   (88%)
+  Net Switching Power  = 792.1459 uW   (12%)
                          ---------
-Total Dynamic Power    =   6.6723 mW  (100%)
+Total Dynamic Power    =   6.6454 mW  (100%)
 
-Cell Leakage Power     = 232.0618 uW
+Cell Leakage Power     = 231.9742 uW
 
 
                  Internal         Switching           Leakage            Total
@@ -52,10 +52,10 @@ Power Group      Power            Power               Power              Power  
 io_pad             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 memory             0.0000            0.0000            0.0000            0.0000  (   0.00%)
 black_box          0.0000            0.0000            0.0000            0.0000  (   0.00%)
-clock_network  4.9262e+03            0.0000            0.0000        4.9262e+03  (  71.35%)  i
-register         385.5015          147.0843        6.1000e+04          593.5845  (   8.60%)
+clock_network  4.9188e+03            0.0000            0.0000        4.9188e+03  (  71.52%)  i
+register         385.9619          151.5308        6.0981e+04          598.4733  (   8.70%)
 sequential         0.0000            0.0000            0.0000            0.0000  (   0.00%)
-combinational    558.8463          654.5991        1.7106e+05        1.3845e+03  (  20.05%)
+combinational    548.5205          640.6148        1.7099e+05        1.3601e+03  (  19.78%)
 --------------------------------------------------------------------------------------------------
-Total          5.8706e+03 uW       801.6833 uW     2.3206e+05 nW     6.9043e+03 uW
+Total          5.8533e+03 uW       792.1456 uW     2.3197e+05 nW     6.8774e+03 uW
 1
